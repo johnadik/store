@@ -21,7 +21,7 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
   return (
     <>
       <Head>
-        <title>Mi tienda online - Almacency</title>
+        <title>Whatsapp Store</title>
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         {/* Inicio de meta tags de licencia - Cambiar el contenido de los mismos viola el contenido de los terminos de licencia */}
         <meta content="goncy" name="author" />
@@ -96,7 +96,7 @@ const App: React.FC<AppProps> = ({Component, pageProps}) => {
           <Divider marginY={4} />
           {/* Inicio de copyright - Cambiar el contenido de los mismos viola el contenido de los terminos de licencia */}
           <Text textAlign="center">
-            © Copyright {new Date().getFullYear()}. Hecho con ♥ para la comunidad, por{" "}
+            © Copyright {new Date().getFullYear()}. Made with ♥ by{" "}
             <Link isExternal href="https://gonzalopozzo.com">
               goncy
             </Link>
